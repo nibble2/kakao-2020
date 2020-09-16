@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Welcome to Kakao Clone</title>
+    <title>Welcome to Kakao clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -15,30 +15,25 @@
         <div class="status-bar__column">
             <span>18:43</span>
         </div>
-        <!-- status bar -->
         <div class="status-bar__column">
             <span>100%</span>
             <i class="fas fa-battery-full fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <!-- header -->
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KaKaoTalk</h1>
-        <p class="welcome-header__text">
-            If you have a Kakao Account,<br /> log in with yout email or phone number.
-        </p>
-    </header>
 
+    <div class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KaKaoTalk</h1>
+        <p class="welcome-header__text">If you have a Kakao Account, <br>log in with your email or phone number</p>
+    </div>
     <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="Password" placeholder="Password" />
-        <input type="submit" value="Log In" />
+        <input type="text" placeholder="Email or Phone number" >
+        <input type="password" placeholder="Password" >
+        <input type="submit" value="Log in">
         <a href="#">Find KaKao Account or Password</a>
     </form>
     <script 
         src="https://kit.fontawesome.com/eb15989aa0.js" crossorigin="anonymous">
     </script>
-
 </body>
 </html>

@@ -10,10 +10,9 @@
 @import "screens/login.css" ;
 
 body {
-    background-color: white;
-    padding: 10px 20px;
-    color: #020202;
-    font-family: 'Open Sans', sans-serif;
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+    height: 1000vh;
 }
 
 
