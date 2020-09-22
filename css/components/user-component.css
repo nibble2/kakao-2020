@@ -1,5 +1,5 @@
-.user-component {
-    margin: 0px 20px;
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
 
 .user-component,
@@ -11,8 +11,13 @@
 .user-component__avatar {
     width: 70px;
     height: 70px;
-    border-radius: 27px;
+    border-radius: 30px;
     margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
 }
 
 .user-component__title {
