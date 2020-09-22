@@ -1,5 +1,6 @@
-#friends-dsplay-link {
-    margin: 95px 0px;
+#friends-display-link {
+    margin-top: 95px;
+    margin-bottom: 10px;
     display: block;
     text-align: center;
     background-color: #fafafa;
@@ -7,6 +8,6 @@
     font-size: 16px;
 }
 
-#friends-dsplay-link i {
+#friends-display-link i {
     opacity: 0.4;
 }
