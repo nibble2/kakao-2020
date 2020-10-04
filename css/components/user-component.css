@@ -15,6 +15,12 @@
     margin-right: 20px;
 }
 
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;   
+    border-radius: 25px;
+}
+
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
@@ -29,12 +35,6 @@
     margin-top: 8px;
     opacity: 0.5;
     font-size: 17px;
-}
-
-.user-component__avatar--sm {
-    width: 60px;
-    height: 60px;   
-    border-radius: 25px;
 }
 
 .user-component__title-not-bold {
