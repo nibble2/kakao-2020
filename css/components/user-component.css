@@ -41,6 +41,7 @@
     font-weight: 400;
 }
 
-.user-component__column:last-child {
+
+.user-component__time {
     opacity: 0.5;
 }

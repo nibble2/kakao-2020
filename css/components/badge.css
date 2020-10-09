@@ -1,13 +1,11 @@
 .badge {
     background-color: tomato;
+    width: 30px;
+    height: 30px;
     border-radius: 15px;
-    /* display: block; */
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-}
-
-.badge.count.chat {
-    left: 0px;
-    bottom: 0px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
 }

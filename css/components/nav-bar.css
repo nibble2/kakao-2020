@@ -18,15 +18,12 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    border-radius: 15px;
-    /* display: block; */
     position: absolute;
     left: 15px;
     bottom: 15px;
 }
 
-.nav__notification.count {
+/* .nav__notification.count {
     width: 28px;
     height: 28px;
     display: flex;
@@ -34,7 +31,7 @@
     align-items: center;
     color: white;
     font-weight: 600;
-}
+} */
 
 
 .nav__notification.update {
